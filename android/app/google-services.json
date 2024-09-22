@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "423381510776",
+    "project_id": "travellink-9862f",
+    "storage_bucket": "travellink-9862f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423381510776:android:b23cb47a7034f833971b8d",
+        "android_client_info": {
+          "package_name": "com.travellink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423381510776-nt30npcd4q7diqovj114s9829ge2ui4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.travellink",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "423381510776-25fdk09bslcs3e8cpp8up1rrcmu34pgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9qr6bjfoF728gyH-AWWQ20rxst4-l77k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423381510776-25fdk09bslcs3e8cpp8up1rrcmu34pgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

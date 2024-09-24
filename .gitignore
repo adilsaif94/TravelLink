@@ -1,3 +1,40 @@
+*const firebaseConfig = {
+  apiKey: 'AIzaSyA9qr6bjfoF728gyH-AWWQ20rxst4-l77k',
+  authDomain: 'travellink-9862f.firebaseapp.com',
+  databaseURL: 'https://travellink-9862f-default-rtdb.firebaseio.com',
+  projectId: 'travellink-9862f',
+  storageBucket: 'travellink-9862f.appspot.com',
+  messagingSenderId: '423381510776',
+  appId: '1:423381510776:android:b23cb47a7034f833971b8d',
+}; // from chatApp.js
+
+*GoogleSignin.configure({
+      webClientId: '423381510776-25fdk09bslcs3e8cpp8up1rrcmu34pgf.apps.googleusercontent.com',
+      offlineAccess: true, 
+});  // LoginPage.js
+
+*key: 'rzp_test_CM0Qfrf8C6BSPl',  from Payment.js
+
+* <ZegoUIKitPrebuiltCall
+        appID={1020221551}
+        appSign={'cb2c6700e3043e3ee358e5baaca8a9224c32bab266a7ae7b3251de77870b8b10'}
+        userID={name + 'userID'}
+        userName={name}
+        callID={roomNo}
+
+        config={{
+            ...ONE_ON_ONE_VIDEO_CALL_CONFIG,
+            onCallEnd: (callID, reason, duration) => { navigation.navigate('VideoCallHomeScreen') },
+        }}
+/>
+
+*<meta-data
+      android:name="com.google.android.geo.API_KEY"
+      android:value="AIzaSyCHdah0jHe9jBM1ulD4jJfg2S-7Lg1p0eQ" />
+       <meta-data
+            android:name="razorpay_key_id"
+            android:value="rzp_test_CM0Qfrf8C6BSPl	" />
+
 # OSX
 #
 .DS_Store

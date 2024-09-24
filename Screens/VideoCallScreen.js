@@ -9,8 +9,8 @@ const VideoCallScreen = ({ route,navigation }) => {
   return (
     <View style={styles.container}>
     <ZegoUIKitPrebuiltCall
-        appID={1020221551}
-        appSign={'cb2c6700e3043e3ee358e5baaca8a9224c32bab266a7ae7b3251de77870b8b10'}
+        appID={appID}
+        appSign={'appSign'}
         userID={name + 'userID'} // userID can be something like a phone number or the user id on your own user system. 
         userName={name}
         callID={roomNo} // callID can be any unique string. 

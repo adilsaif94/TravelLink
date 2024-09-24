@@ -12,7 +12,7 @@ const Payment = () => {
             description: 'Purchase Description',
             image: 'https://your-logo-url.com/logo.png',
             currency: 'INR',
-            key: 'rzp_test_CM0Qfrf8C6BSPl',
+            key: 'key',
             amount: 47500 * 100, // Amount in paise
             name: 'Travel Link',
             prefill: {

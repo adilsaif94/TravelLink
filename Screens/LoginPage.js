@@ -11,7 +11,7 @@ const LoginPage = ({ navigation }) => {
   useEffect(() => {
     // Initialize Google Sign-In
     GoogleSignin.configure({
-      webClientId: '423381510776-25fdk09bslcs3e8cpp8up1rrcmu34pgf.apps.googleusercontent.com',
+      webClientId: 'webClientId',
       offlineAccess: true,  // Required to retrieve idToken
     });
 

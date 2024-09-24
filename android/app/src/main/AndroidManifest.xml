@@ -35,9 +35,9 @@
       <!-- Add this line with your API key -->
       <meta-data
       android:name="com.google.android.geo.API_KEY"
-      android:value="AIzaSyCHdah0jHe9jBM1ulD4jJfg2S-7Lg1p0eQ" />
+      android:value="" />
        <meta-data
             android:name="razorpay_key_id"
-            android:value="rzp_test_CM0Qfrf8C6BSPl	" />
+            android:value="	" />
     </application>
 </manifest>
